@@ -154,8 +154,6 @@ resimler = [
     "148.png",
     "149.png",
     "150.png",
-
-    # Diğer görüntü dosyalarını buraya ekleyin
 ]
 
 # Görüntüleri yükleyip parçalara ayırma işlemini gerçekleştiren fonksiyon
@@ -192,7 +190,6 @@ ozellikler = ozellikleri_cikar(resimler)
 
 # En çok benzeyen resimleri bul
 benzer_resimler = en_cok_benzeyen_resimleri_bul(ozellikler)
-
 
 # Sonuçların yazdırılması
 print("Benzerlik Oranı 1 Olan Resim Çiftleri:")
